@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding-top: 0px;
+    box-sizing: border-box;
+    font-family: 'plus jakarta sans',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #242323;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 50px 90px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    position:relative;
+}
+
+nav ul li a::after{
+content: '';
+width: 0%;
+height: 3px;
+position:absolute;
+bottom: -5px;
+left: 50%;
+transform: translateX(-50%);
+background: #fff;
+transition: width 0.3s;
+}
+nav ul li a:hover:after{
+    width: 50%;
+}
+
+
+.title{
+    color: white;
+    font-size: 30px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+}
+.computeraided3d{
+    text-align: center;
+}
+.computeraided3d img{
+    width: 50%;
+    padding-top: 30px;
+}
+.description{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* -----------Assignment2----------- */
+
+#Assignment2{
+    background-color: black;
+}
+
+.assignment2{
+    text-align: center;
+}
+.assignment2 img{
+    width: 40%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* -----------Assignment3----------- */
+
+#Assignment3{
+    background-color: black;
+}
+
+.assignment3{
+    text-align: center;
+}
+.assignment3 img{
+    width: 40%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+/* -----------Assignment4----------- */
+
+#Assignment4{
+    background-color: black;
+}
+
+.assignment4{
+    text-align: center;
+}
+.assignment4 img{
+    width: 30%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+/* -----------Assignment5----------- */
+
+#Assignment5{
+    background-color: black;
+}
+
+.assignment5{
+    text-align: center;
+}
+.assignment5 img{
+    width: 40%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+/* -----------Assignment6----------- */
+
+#Assignment6{
+    background-color: black;
+}
+
+.assignment6{
+    text-align: center;
+}
+.assignment6 img{
+    width: 30%;
+    padding-top: 100px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* -----------Assignment print----------- */
+
+#printprocess{
+    background-color: black;
+}
+
+.printprocess{
+    text-align: center;
+}
+.printprocess img{
+    width: 30%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* -----------Assignmentfinallook----------- */
+
+#Assignmentfinallook{
+    background-color: black;
+}
+
+.finallook{
+    text-align: center;
+}
+.finallook img{
+    width: 30%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* -----------Assignmentfinal----------- */
+
+#Assignmentfinal{
+    background-color: black;
+}
+
+.final{
+    text-align: center;
+}
+.final img{
+    width: 30%;
+    padding-top: 30px;
+}
+.caption{
+    color: white;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
